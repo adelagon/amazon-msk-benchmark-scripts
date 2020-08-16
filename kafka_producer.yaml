@@ -1,0 +1,8 @@
+bootstrap_servers:
+  - b-1.<endpoint>:9092
+  - b-2.<endpoint>:9092
+  - b-3.<endpoint>:9092
+
+num_topics: 1
+topic_prefix: gossip_
+flush_until: 1000

@@ -1,0 +1,7 @@
+bootstrap_servers:
+  - b-1.<endpoint>:9092
+  - b-2.<endpoint>:9092
+  - b-3.<endpoint>:9092
+  
+min_commit_count: 1000
+topic_prefix: gossip_

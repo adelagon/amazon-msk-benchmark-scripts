@@ -1,0 +1,11 @@
+bootstrap_servers:
+  - b-1.<endpoint>:9092
+  - b-2.<endpoint>:9092
+  - b-3.<endpoint>:9092
+
+
+clean_topics_on_start: 1
+topic_prefix: gossip_
+num_topics: 3000
+num_partitions: 15
+replication_factor: 3
